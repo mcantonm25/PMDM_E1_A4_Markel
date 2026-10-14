@@ -44,7 +44,6 @@ fun DadoaBota(modifier: Modifier = Modifier) {
         5 -> R.drawable.dadoa_5
         else -> R.drawable.dadoa_6
     }
-
     Box (
         modifier = modifier.fillMaxSize(),
         contentAlignment = Alignment.Center
