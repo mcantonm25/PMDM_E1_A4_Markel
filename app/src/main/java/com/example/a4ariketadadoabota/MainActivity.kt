@@ -63,20 +63,11 @@ fun DadoaBota(modifier: Modifier = Modifier) {
                 "Dadoa: $emaitza",
                 modifier = Modifier.size(150.dp)
             )
-
             Spacer(modifier = Modifier.height(16.dp))
-
-            /*Text (
-                text = "Emaitza: $emaitza",
-                fontSize = 24.sp
-            )*/
-
-            Spacer(modifier = Modifier.height(16.dp))
-
             Button (
                 onClick = { emaitza = (1..6).random()}
             ) {
-                Text(text="Jaurti dadoa")
+                Text(text="Bota dadoa")
             }
         }
     }
