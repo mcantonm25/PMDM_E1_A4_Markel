@@ -35,8 +35,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun DadoaBota(modifier: Modifier = Modifier) {
     var emaitza by remember { mutableIntStateOf(1) }
-
-    var dadoa = when (emaitza) {
+    val dadoa = when (emaitza) {
         1 -> R.drawable.dadoa_1
         2 -> R.drawable.dadoa_2
         3 -> R.drawable.dadoa_3
